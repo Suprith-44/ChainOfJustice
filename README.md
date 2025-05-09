@@ -6,15 +6,15 @@
 ![Image2](Images/Image2.jpg)
 ---
 
-## 🚀 Overview
+## Overview
 
 Crime investigations often suffer from evidence tampering and unauthorized access. HashProof addresses these challenges by leveraging **MultiChain** (a permissioned blockchain) and **IPFS** (InterPlanetary File System) to build a secure and immutable system for managing criminal case data and digital evidence.
 
-This project was developed by **Team Chain of Justice** and was awarded an **internship offer by CID Karnataka** in recognition of its innovation and societal relevance.
+This project was developed by **Team: Chain of Justice** and was awarded an **internship offer by CID Karnataka** in recognition of its innovation and societal relevance.
 
 ---
 
-## 🔐 Key Features
+## Key Features
 
 - **Role-Based Access Control (RBAC):** Secure access for officials based on roles (e.g., Inspector, Forensic Analyst, Administrator).
 - **Add & Manage Cases:** Officials can register new crime cases with structured metadata.
@@ -24,13 +24,13 @@ This project was developed by **Team Chain of Justice** and was awarded an **int
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer              | Technology Used                             |
 |--------------------|---------------------------------------------|
 | Frontend           | React, Tailwind CSS                         |
 | Backend            | Flask                                       |
-| Blockchain         | MultiChain (Permissioned Blockchain)        |
+| Blockchain         | MultiChain (Private Blockchain)             |
 | File Storage       | IPFS (InterPlanetary File System)           |
 
 
