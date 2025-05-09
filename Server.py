@@ -14,7 +14,7 @@ CORS(app)
 
 # MultiChain connection settings
 RPC_USER = "multichainrpc"
-RPC_PASSWORD = "e74q7ZnB84AjFPJ8hR4mxqAdfPjAYtf4YPmCLmXGrV7"
+RPC_PASSWORD = ""
 RPC_PORT = "6292"
 RPC_HOST = "127.0.0.1"
 CHAIN_NAME = "cid"
@@ -23,9 +23,9 @@ STREAM_NAME2 = "complaints"
 RPC_URL = f"http://{RPC_USER}:{RPC_PASSWORD}@{RPC_HOST}:{RPC_PORT}"
 
 # Pinata IPFS Configuration
-PINATA_API_KEY = "c2df8585ba5b6dfa4b73"
-PINATA_SECRET_API_KEY = "d26d593e1de3a897f9d76d1ce48cff42974cc28bb5437f16e7fe3cd6d296f90a"
-PINATA_URL = "https://api.pinata.cloud/pinning/pinFileToIPFS"
+PINATA_API_KEY = ""
+PINATA_SECRET_API_KEY = ""
+PINATA_URL = ""
 
 
 # Simple in-memory database for complaints (In production, use MongoDB or similar)
@@ -370,7 +370,7 @@ def uploaded_file(filename):
 
 
 def setup_gemini():
-    genai.configure(api_key="AIzaSyAOZRzjgX6LSv6FuG3pCmg-kmXJ8guYIdk")
+    genai.configure(api_key="")
     # Update model name to correct version
     return genai.GenerativeModel('gemini-1.5-pro')
 
