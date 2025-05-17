@@ -1,6 +1,6 @@
 # HashProof
 
-**HashProof** is a private, decentralized platform designed to enhance the transparency, security, and integrity of crime investigation processes. Built on a permissioned blockchain network, it ensures tamper-proof evidence handling and robust access control for law enforcement officials.
+**HashProof** is a private, permissioned blockchain platform designed to enhance the transparency, security, and integrity of crime investigation processes. It ensures tamper-proof evidence handling and robust access control for law enforcement officials.
 
 ![Image1](Images/Image1.jpg)
 ![Image2](Images/Image2.jpg)
